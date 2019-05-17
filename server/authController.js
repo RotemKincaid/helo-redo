@@ -10,6 +10,8 @@ module.exports = {
             username: user[0].username,
             fullname: user[0].full_name
           };
+          console.log(req.session);
+
           res.status(200).send(req.session.user);
         } else {
           res.status(401).send("Password does not match!");
