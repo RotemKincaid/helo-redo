@@ -1,0 +1,29 @@
+.nav-main {
+  // display: flex;
+  // justify-content: flex-start;
+  // align-items: flex-start;
+  float: left;
+  // margin-right: 95%;
+
+  nav {
+    width: 100px;
+    height: 100vh;
+    background: linear-gradient(0.5turn, rgb(238, 104, 126), orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    button {
+      height: 100px;
+      width: 100%;
+      background: linear-gradient(rgb(236, 99, 122), orange);
+      padding: 10px;
+
+      a {
+        text-decoration: none;
+        font-size: 25px;
+        color: whitesmoke;
+      }
+    }
+  }
+}
